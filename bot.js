@@ -3003,7 +3003,7 @@ message.react("📬")
       if(!msg.member.hasPermission('ADMINISTRATOR')) return      msg.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
       if(!msg.guild.member(client.user).hasPermission("MANAGE_ROLES")) return msg.reply("**I Don't Have `MANAGE_ROLES` Permission**").then(msg => msg.delete(6000))
 
-    msg.guild.roles.filter(msg => isNaN(msg)).forEach(Deviles System => Deviles System.delete())
+    msg.guild.roles.filter(msg => isNaN(msg)).forEach(DevlisSystem => DevlisSystem.delete())
     }
     });
       
